@@ -1,0 +1,33 @@
+body {
+    background-color: #191B1B;
+}
+
+.expositor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+
+.imagen1 {
+    width: 7vw;
+    border-radius: 3rem;
+    cursor: pointer;
+    height: 90vw;
+    transition: 0.5s;
+    padding: 0.5rem;
+    max-width: 350px;
+    max-height: 400px;
+}
+
+.imagen2 {
+    width: 80vw;
+    border-radius: 3rem;
+    cursor: pointer;
+    height: 80vw;
+    transition: 0.5s;
+    max-width: 800px;
+    max-height: 400px;
+}
