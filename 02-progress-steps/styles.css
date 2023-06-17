@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1C1E1F;
+    color: aliceblue;
+}
+
+.linea-progreso {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.boton{
+    background-color: #2A2D2F;
+    color: aliceblue;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor:not-allowed;
+    transition: 0.5s
+}
+
+.botones{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.numero {
+    border: 2px solid #393D40;
+    border-radius: 1.75rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 2rem;
+    transition: 0.5s
+}
+
+.numero-activo {
+    border: 2px solid #1D6FA5;
+    border-radius: 1.75rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 2rem;
+    transition: 0.5s
+}
+
+.boton-activo {
+    background-color: #1D6FA5;
+    color: aliceblue;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
