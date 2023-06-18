@@ -1,0 +1,39 @@
+body {
+    background-color: #270F91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.boton-busqueda {
+    background: url(/04-hidden-search/media/busqueda.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.activo {
+    background: url(/04-hidden-search/media/busqueda.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+    color: black;
+    width: 14rem;
+    height: 4rem;
+    padding: 0.5rem 1rem;
+    transition: 100ms;
+}
+
+.activo::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
