@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    color: white;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+
+.playstation {
+    background-image: url(/07-split-landing-page/media/playstation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.transicion {
+    transition: width 0.5s ease;
+}
+
+h1 {
+    transform: translateX(-0%);
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    transform: translateX(-0%);
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid grey;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+}
+
+.playstation-btn:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+
+.playstation-hover {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 0.3s ease, height 0.3s ease; /* Define la duración y el efecto de la transición */
+  }
+
+.xbox-btn:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+
+.playstation::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(87, 84, 236, 0.7);
+    width: 50%;
+    height: 100%;
+  }
+
+.xbox {
+    background-image: url(/07-split-landing-page/media/xbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.xbox::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(43, 43, 43, 0.8);
+    width: 50%;
+    height: 100%;
+  }
